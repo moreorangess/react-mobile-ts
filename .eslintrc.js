@@ -1,4 +1,4 @@
-// .eslintrc.js
+// @see http://eslint.cn
 module.exports = {
   // 环境
   env: {
