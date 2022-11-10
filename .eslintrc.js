@@ -16,6 +16,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     // react17之后不需要引入React使用jsx
     'plugin:react/jsx-runtime',
+    // react hooks
+    'plugin:react-hooks/recommended',
     'prettier',
   ],
   // 解析器
@@ -30,7 +32,7 @@ module.exports = {
     sourceType: 'module',
   },
   // 插件
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['react', '@typescript-eslint', 'react-hooks', 'prettier'],
   // 规则
   rules: {
     // 解决与prettier的冲突，格式化部分以prettier为准
