@@ -1,14 +1,12 @@
 import React from 'react';
-import './App.css';
+import app from './app.module.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+    <div className={app.App}>
+      <header className={app.AppHader}>
+        <p>This is title</p>
+        <a className={app.AppLink} href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
       </header>
