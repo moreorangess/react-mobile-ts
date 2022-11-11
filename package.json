@@ -7,13 +7,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "prepare": "husky install",
-    "lint-staged": "lint-staged",
-    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx",
-    "lint:style": "stylelint --cache --fix \"**/*.{less,postcss}\" --cache --cache-location node_modules/.cache/stylelint/"
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "lint-staged": {
-    "**/*.less": "npm run lint:style",
-    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
+    "*.css": "stylelint",
+    "**/*.less": "stylelint --syntax less",
     "**/*.{js,jsx,tsx,ts,less,md,json}": [
       "prettier --write"
     ]
@@ -29,6 +33,8 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
