@@ -18,28 +18,28 @@
       "title": "Styles"
     },
     "refactor": {
-      "description": "A code change that neither fixes a bug nor adds a feature",
-      "title": "♻️ Code Refactoring"
+      "description": "♻️ A code change that neither fixes a bug nor adds a feature",
+      "title": "Code Refactoring"
     },
     "perf": {
-      "description": "A code change that improves performance",
-      "title": "⚡️ Performance Improvements"
+      "description": "⚡️ A code change that improves performance",
+      "title": "Performance Improvements"
     },
     "test": {
-      "description": "Adding missing tests or correcting existing tests",
-      "title": "✅ Tests"
+      "description": "✅ Adding missing tests or correcting existing tests",
+      "title": "Tests"
     },
     "build": {
-      "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
-      "title": "📦️ Builds"
+      "description": "📦️ Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
+      "title": "Builds"
     },
     "chore": {
-      "description": "Other changes that don't modify src or test files",
-      "title": "🔨 Chores"
+      "description": "🔨 Other changes that don't modify src or test files",
+      "title": "Chores"
     },
     "revert": {
-      "description": "Reverts a previous commit",
-      "title": "⏪️ Reverts"
+      "description": "⏪️ Reverts a previous commit",
+      "title": "Reverts"
     }
   }
 }

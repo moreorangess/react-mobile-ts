@@ -2,7 +2,6 @@ import React from 'react';
 import './test.css';
 
 const App: React.FC = () => {
-  const a = 12;
   return (
     <div className="App">
       <header className="App-header">
