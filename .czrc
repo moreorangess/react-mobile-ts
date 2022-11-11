@@ -2,54 +2,44 @@
   "path": "node_modules/cz-conventional-changelog",
   "types": {
     "feat": {
-      "description": "A new feature",
-      "title": "🚀 New Feature",
-      "emoji": "🚀"
+      "description": "🚀 A new feature",
+      "title": "New Feature"
     },
     "fix": {
-      "description": "A bug fix",
-      "title": "🧩 Bug Fixes",
-      "emoji": "🧩"
+      "description": "🧩 A bug fix",
+      "title": "Bug Fixes"
     },
     "docs": {
-      "description": "Documentation only changes",
-      "title": "📚 Documentation",
-      "emoji": "📚"
+      "description": "📚 Documentation only changes",
+      "title": "Documentation"
     },
     "style": {
-      "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
-      "title": "🎨 Styles",
-      "emoji": "🎨"
+      "description": "🎨 Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
+      "title": "Styles"
     },
     "refactor": {
       "description": "A code change that neither fixes a bug nor adds a feature",
-      "title": "♻️ Code Refactoring",
-      "emoji": "♻️"
+      "title": "♻️ Code Refactoring"
     },
     "perf": {
       "description": "A code change that improves performance",
-      "title": "⚡️ Performance Improvements",
-      "emoji": "⚡️"
+      "title": "⚡️ Performance Improvements"
     },
     "test": {
       "description": "Adding missing tests or correcting existing tests",
-      "title": "✅ Tests",
-      "emoji": "✅"
+      "title": "✅ Tests"
     },
     "build": {
       "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
-      "title": "📦️ Builds",
-      "emoji": "📦️"
+      "title": "📦️ Builds"
     },
     "chore": {
       "description": "Other changes that don't modify src or test files",
-      "title": "🔨 Chores",
-      "emoji": "🔨"
+      "title": "🔨 Chores"
     },
     "revert": {
       "description": "Reverts a previous commit",
-      "title": "⏪️ Reverts",
-      "emoji": "⏪️"
+      "title": "⏪️ Reverts"
     }
   }
 }
